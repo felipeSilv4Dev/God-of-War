@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cinzel", sans-serif;
+  background-color: #16161a;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1200px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
