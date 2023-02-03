@@ -40,11 +40,34 @@
   color: #fff;
   background-color: #346da4;
 }
+
+@media (max-width: 1200px) {
+  .vector {
+    display: none;
+  }
+}
+
 @media (max-width: 700px) {
+  .menu {
+    padding: 0px 0px 0px 1rem;
+  }
   .menu-flex {
     margin-top: 1rem;
   }
-  .logo {
-    padding-left: 6.4rem;
+  .menu-flex .button {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .menu {
+    padding: 0px 1rem;
+  }
+  .logo img {
+    max-width: 8rem;
+  }
+  .menu-flex .button {
+    padding: 0.3rem 0.2rem;
+    font-size: 0.8rem;
   }
 }
