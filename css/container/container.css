@@ -58,7 +58,8 @@
   padding-top: 1rem;
   top: 36.5rem;
   width: 100%;
-  opacity: 0.9;
+  height: 3rem;
+  opacity: 1;
   filter: blur(8px);
 }
 
@@ -173,20 +174,10 @@
     padding-top: 2rem;
   }
   .over {
-    margin-left: 2rem;
-    width: 19rem;
-    padding-top: 0.2rem;
-    top: 20rem;
+    display: none;
   }
 }
-@media (max-width: 414px) {
-  .over {
-    margin-left: 1rem;
-    width: 19rem;
-    padding-top: 0.2rem;
-    top: 22.2rem;
-  }
-}
+
 @media (max-width: 360px) {
   .container {
     display: grid;
