@@ -3,16 +3,16 @@
 }
 .heroes h2 {
   padding-top: 4rem;
-  margin-left: 22rem;
-  font-size: 2.7rem;
+  margin-left: 24rem;
+  font-size: 2rem;
   color: #fff;
   margin-bottom: 4rem;
+  text-transform: uppercase;
 }
 .heroes-flex {
   display: flex;
   gap: 1rem;
   margin: 0rem 8rem;
-  padding-bottom: 70rem;
 }
 .heroes-flex figure {
   position: relative;
@@ -215,7 +215,7 @@
 
 @media (max-width: 280px) {
   .heroes h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .heroes-flex img {
     height: 20rem;
