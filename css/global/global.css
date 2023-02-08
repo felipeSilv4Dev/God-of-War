@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  background-color: #16161a;
+}
 a {
   text-decoration: none;
 }
