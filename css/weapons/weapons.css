@@ -1,11 +1,11 @@
 .weapons-bg {
   background-color: #16161a;
-  padding: 15rem 12rem;
-  padding-bottom: 12rem;
+  padding: 10rem 0rem 0rem 8rem;
+  padding-bottom: 8rem;
 }
 .weapons {
+  gap: 1.5rem;
   display: flex;
-  gap: 1rem;
 }
 .weapons-bg > h2 {
   font-weight: 700;
@@ -18,7 +18,7 @@
   background-color: #27272e;
   display: grid;
   border-radius: 2px;
-  grid-template-columns: 303px 200px;
+  grid-template-columns: 353px 200px;
 }
 .weapons-detalhe-1 {
   display: flex;
@@ -47,7 +47,7 @@
   background-color: #5092d2;
   color: #16161a;
   border-radius: 4px;
-  margin: 4.9rem 9.5rem 3rem 3rem;
+  margin: 4.9rem 12rem 3rem 3rem;
   padding: 1rem;
   font-size: 0.7rem;
   text-transform: uppercase;
@@ -246,17 +246,13 @@
   }
 }
 @media (max-width: 820px) {
-  .weapons-bg {
-    padding: 1rem;
-  }
-
   .weapons {
     display: flex;
     flex-direction: column;
   }
   .weapons-conteudo-1,
   .weapons-conteudo-2 {
-    padding: 1.5rem;
+    padding: 2rem;
   }
   .weapons-detalhe-1 h2 {
     padding: 0rem;
@@ -265,7 +261,7 @@
   }
   .weapons-detalhe-1 p {
     padding: 0rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 2rem 0rem 0rem 0rem;
   }
   .weapons-conteudo-1 a {
@@ -276,7 +272,7 @@
     margin: 5rem 0rem 1rem 0rem;
   }
   .weapons-conteudo-1 figure img {
-    margin-top: 6.3rem;
+    margin-top: 4.3rem;
     padding-left: 4rem;
   }
   .weapons-detalhe-2 {
@@ -284,7 +280,7 @@
   }
 
   .weapons-detalhe-2 h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 0rem;
     margin-top: 3rem;
   }
@@ -301,13 +297,16 @@
   }
   .weapons-conteudo-2 figure img {
     height: 400px;
-    margin-top: 2.1rem;
-    margin-bottom: -5rem;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
     padding-left: 4rem;
   }
 }
 
 @media (max-width: 768px) {
+  .weapons {
+    padding: 1.3rem;
+  }
   .weapons-conteudo-2 figure img {
     margin-top: 5.7rem;
     padding-left: 0rem;
@@ -327,7 +326,7 @@
   }
   .weapons-detalhe-1 p {
     margin-bottom: 0rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .weapons-detalhe-1 h2 {
     margin-top: 7rem;
@@ -493,14 +492,6 @@
     font-size: 0.8rem;
     margin: 0rem;
     padding: 1rem;
-  }
-}
-@media (max-width: 360px) {
-  .weapons {
-    gap: 0.1rem;
-  }
-  .weapons-detalhe-1 h2 {
-    font-size: 1.5rem;
   }
 }
 
