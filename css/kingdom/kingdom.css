@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: 63rem;
 }
+
 .kingdom-grid {
   display: grid;
   grid-template-columns: 260px 400px 430px;
